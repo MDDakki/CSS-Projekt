@@ -32,6 +32,7 @@ nav {
 
 .nav__link--anchor {
     margin: 0 24px;
+    border-bottom: 2px;
     padding-bottom: 4px;
     font-size: 14px;
     color: rgb(36, 62, 99);
@@ -53,14 +54,14 @@ nav {
 .nav__link--login {
     margin-left: 48px;
 }
-
+    
 .nav__link--sign-up {
     margin: 0;
     padding: 12px 32px;
     color: #fff;
     box-shadow: 0 20px 80px rgba(0,0,0,0.45);
     background-color: rgb(80, 17, 204);
-    border-radius: 999px;
+    border-radius: 20px;
 }
 
 .nav__link--sign-up:hover{
