@@ -8,6 +8,60 @@
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
 
+li {
+    list-style: none;
+}
+
+nav {
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__link--anchor {
+    margin: 0 24px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    color: rgb(36, 62, 99);
+}
+
+.nav__logo--text {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(36, 62, 99)  ;
+}
+
+.nav__link--logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+
+.nav__link--sign-up {
+    margin: 0;
+    padding: 12px 32px;
+    color: #fff;
+    box-shadow: 0 20px 80px rgba(0,0,0,0.45);
+    background-color: rgb(80, 17, 204);
+    border-radius: 999px;
+}
+
+.nav__link--sign-up:hover{
+    background-color: rgb(100, 21, 255);
+}
 
 /* COlor #63A5FF */ 
