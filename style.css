@@ -50,6 +50,9 @@ nav {
     margin-right: 8px;
 }
 
+.nav__link--login {
+    margin-left: 48px;
+}
 
 .nav__link--sign-up {
     margin: 0;
