@@ -10,7 +10,7 @@
 
 a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 li {
@@ -24,11 +24,18 @@ nav {
     align-items: center;
 }
 
+
 .row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.purp {
+    color: #6415FF;   
+}
+
+/* Nav Bar */
 
 .nav__link--anchor {
     margin: 0 24px;
@@ -54,7 +61,7 @@ nav {
 .nav__link--login {
     margin-left: 48px;
 }
-    
+
 .nav__link--sign-up {
     margin: 0;
     padding: 12px 32px;
@@ -66,6 +73,65 @@ nav {
 
 .nav__link--sign-up:hover{
     background-color: rgb(100, 21, 255);
+}
+
+/* Zweite Part */ 
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__row {
+    width: 100%;
+    max-width: 1200px;
+    padding: 96px 0;
+    margin-left: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left__side {
+    width: 40%;
+    position: relative;
+}
+
+.right__side {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.img__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.logo {
+    width: 700px;
+    max-width: 768px;
+
+}
+
+.header--text {
+    color: #1A202C;
+    font-size: 46px;
+    text-align: left;
+    display: block;
+}
+
+.text--para {
+    color: #243E63;
+    margin: 32px 0;
+    font-size: 14px;
 }
 
 /* COlor #63A5FF */ 
