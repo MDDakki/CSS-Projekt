@@ -24,6 +24,11 @@ nav {
     align-items: center;
 }
 
+input {
+    width: 100%;
+    border-radius: 20px;
+    border-style: solid 2px #dadadae0;
+}
 
 .row {
     width: 100%;
@@ -132,6 +137,65 @@ nav {
     color: #243E63;
     margin: 32px 0;
     font-size: 14px;
+}
+
+.input__text {
+    position: relative;
+    max-width: 28rem;
+    text-align: center;
+}
+
+.input__wrapper {
+    width: 100%;
+    max-width: 448px;
+    position: relative;
+    display: block;
+    color: rgb(36, 62, 99);
+}
+
+.input__style {
+    padding: 20px 192px 20px 32px;
+    display: inline-block;
+    text-align: start;
+    color: rgb(36, 62, 99);
+    border: solid 2px rgba(160, 158, 158, 0.5);
+    cursor: text;
+}
+
+.btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 8px 8px 0;
+    padding: 12px 0;
+    top: 0;
+    right: 0;
+    width: 160px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(247, 250, 252);
+    background-color: rgb(100, 21, 255);
+    border: solid 2px rgb(226, 232, 240);
+}
+
+.customers {
+    margin-top: 3rem;
+    display: block;
+    color: rgb(36, 62, 99);
+    text-align: left;
+}
+
+.customer--para {
+    color: rgb(160, 174, 192);  
+}
+
+.trusted--img {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 350px;
+    opacity: 0.5;
 }
 
 /* COlor #63A5FF */ 
